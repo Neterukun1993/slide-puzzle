@@ -1,0 +1,26 @@
+.block {
+	height: 60px;
+	width: 60px;
+	border: 1px solid #FFFFFF;
+	cursor : pointer;
+    color: #222222;
+    font-size: 25px;
+    background-color: #DDDDDD;
+    text-align:center;
+}
+
+.empty {
+	height: 60px;
+	width: 60px;
+	border: 1px solid #FFFFFF;
+	cursor : pointer;
+    background-color: #FFFFFF;
+}
+
+#counter {
+	width: 80px;
+}
+
+.finish {
+    color: #B22222;
+}
