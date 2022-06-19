@@ -135,8 +135,8 @@ function updatePuzzleBoard(board) {
             cell.addEventListener("click", () => {
                 const effect = new KeyframeEffect(
                     cell,
-                    [, {transform: board.directionToEmpty(i, j)}],
-                    50
+                    [{ transform: "translate(0px, 0px)" }, { transform: board.directionToEmpty(i, j) }],
+                    { duration: 50 }
                 );
                 const animation = new Animation(effect);
                 animation.onfinish = () => {
